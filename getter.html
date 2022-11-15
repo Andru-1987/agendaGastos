@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/postData.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <title>Buscar facturacion</title>
+</head>
+<body>
+    <form method="post" class="form" action="">
+
+        <h2 class="form__title"> Datos a Cargar</h2>
+        <p class="form__paragraph"> Ingresar usuario a buscar</p>
+
+        <div class="form__container">
+
+            <div class="form__group">
+                <input type="text" id="personal" class="form__input" placeholder=" ">
+                <label for="dni" class="form__label">DNI del usuario a buscar</label>
+                <span class="form__line" ></span>
+            </div>
+
+            <!-- <div class="form__group">
+                <input type="text" id="emailContacto" class="form__input" placeholder=" ">
+                <label for="emailContacto" class="form__label">Email contacto</label>
+                <span class="form__line" ></span>
+            </div> -->
+
+            <input type="submit" class="form__submit" value="Enviar" id="getter">
+            <a class="form__link" href="index.html">BACK</a>
+
+        </div>
+
+        <div id="to_append" align="left">
+
+        </div>
+
+    </form>
+
+
+    <script src="script.js" type="text/JavaScript"></script>
+    
+    <style>
+
+        #to_append{
+            margin: 2rem;
+        }
+
+        #to_append fieldset {
+
+            border-radius: 20px;
+            margin: 2rem;
+            padding: 2rem 0rem 1rem 4rem;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+    </style>
+</body>
+</html>
